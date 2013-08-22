@@ -1,6 +1,6 @@
 {
   "name": "grunt-yuidoc2md",
-  "description": "The best Grunt plugin ever.",
+  "description": "A yuidoc-to-markdown generator.",
   "version": "0.1.0",
   "homepage": "https://github.com/Lloyd/grunt-yuidoc2md",
   "author": "Lloyd Brookes",
