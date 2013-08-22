@@ -37,6 +37,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "yuidoc2md": "0.0.0"
+    "yuidoc2md": "~0.0.0"
   }
 }
