@@ -1,7 +1,7 @@
 {
   "name": "grunt-yuidoc2md",
   "description": "A yuidoc-to-markdown generator.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/Lloyd/grunt-yuidoc2md",
   "author": "Lloyd Brookes",
   "repository": {
