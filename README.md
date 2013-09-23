@@ -1,4 +1,4 @@
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/75lb/grunt-yuidoc2md/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![NPM version](https://badge.fury.io/js/grunt-yuidoc2md.png)](http://badge.fury.io/js/grunt-yuidoc2md)
 # grunt-yuidoc2md
 
 > The best Grunt plugin ever.
@@ -88,3 +88,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 _(Nothing yet)_
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/75lb/grunt-yuidoc2md/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
