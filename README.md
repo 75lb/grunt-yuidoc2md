@@ -1,3 +1,4 @@
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/75lb/grunt-yuidoc2md/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 # grunt-yuidoc2md
 
 > The best Grunt plugin ever.
