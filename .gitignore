@@ -2,3 +2,5 @@ node_modules
 npm-debug.log
 tmp
 tmp2
+test/fixtures/v2/package1/docs
+test/fixtures/v2/package2/docs
