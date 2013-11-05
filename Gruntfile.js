@@ -32,20 +32,6 @@ module.exports = function(grunt) {
 
     // Configuration to be run (and then tested).
     yuidoc2md: {
-      default_options: {
-        options: { },
-        files: {
-          "tmp": ["test/fixtures"]
-        }
-      },
-      custom_options: {
-        options: {
-          template: "test/fixtures/test.mustache"
-        },
-        files: {
-            "tmp2": ["test/fixtures"]
-        }
-      },
       v2: {
           src: "test/fixtures/v2/**/*.js",
           expand: true,
