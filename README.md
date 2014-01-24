@@ -1,4 +1,6 @@
 [![NPM version](https://badge.fury.io/js/grunt-yuidoc2md.png)](http://badge.fury.io/js/grunt-yuidoc2md)
+[![Dependency Status](https://david-dm.org/75lb/grunt-yuidoc2md.png)](https://david-dm.org/75lb/grunt-yuidoc2md)
+![Analytics](https://ga-beacon.appspot.com/UA-27725889-20/grunt-yuidoc2md/README.md?pixel)
 # grunt-yuidoc2md
 
 > The best Grunt plugin ever.
@@ -89,4 +91,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 _(Nothing yet)_
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/75lb/grunt-yuidoc2md/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![NPM](https://nodei.co/npm-dl/grunt-yuidoc2md.png?months=3)](https://nodei.co/npm/grunt-yuidoc2md/)
