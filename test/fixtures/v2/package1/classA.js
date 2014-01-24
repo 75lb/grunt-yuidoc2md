@@ -1,8 +1,4 @@
 /**
-@module fixture
-*/
-
-/**
 The description for ClassA
 @class ClassA
 @constructor

@@ -1,6 +1,6 @@
 /*
  * grunt-yuidoc2md
- * https://github.com/Lloyd/grunt-yuidoc2md
+ * https://github.com/75lb/grunt-yuidoc2md
  *
  * Copyright (c) 2013 Lloyd Brookes
  * Licensed under the MIT license.
@@ -27,10 +27,9 @@ module.exports = function(grunt) {
 
     // Before generating any new files, remove any previously-created files.
     clean: {
-      tests: ["tmp", "tmp2"],
+      tests: ["tmp", "test/fixtures/v2/package*/docs"],
     },
 
-    // Configuration to be run (and then tested).
     yuidoc2md: {
       v2: {
           src: "test/fixtures/v2/**/*.js",

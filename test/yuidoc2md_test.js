@@ -23,7 +23,7 @@ var grunt = require('grunt');
 */
 
 exports.yuidoc2md = {
-  default_options: function(test) {
+  v2: function(test) {
     test.expect(1);
   
     // var actual = grunt.file.read('tmp/default_options');
