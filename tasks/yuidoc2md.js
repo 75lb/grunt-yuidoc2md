@@ -24,7 +24,7 @@ module.exports = function(grunt) {
             //     grunt.file.write(fileObject.dest, generatedDocs);
             //     grunt.log.ok(fileObject.dest);
             // });
-            var generatedDocs = y2md.getMarkdown(fileObject.src);
+            var generatedDocs = y2md.getMarkdown(fileObject.src, options.template);
             grunt.log.debug(generatedDocs);
             grunt.file.write(fileObject.dest, generatedDocs);
             grunt.log.ok(fileObject.dest);
