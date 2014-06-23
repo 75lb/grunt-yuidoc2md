@@ -40,17 +40,11 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
+#### options.template
 Type: `String`
-Default value: `',  '`
+Default value: `''`
 
-A string value that is used to do something with whatever.
-
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
-
-A string value that is used to do something else with whatever else.
+A string value to the location of a handlebars template to be used to renders the results.
 
 ### Usage Examples
 
@@ -61,26 +55,21 @@ In this example, the default options are used to do something with whatever. So 
 grunt.initConfig({
   yuidoc2md: {
     options: {},
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
+    'dest/default_options': ['src/testing', 'src/123']
   },
 })
 ```
 
 #### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
+In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, using a custom handlebar template.
 
 ```js
 grunt.initConfig({
   yuidoc2md: {
     options: {
-      separator: ': ',
-      punctuation: ' !!!',
+      template: 'location/of/template.handlebars'
     },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
+  'dest/default_options': ['src/testing', 'src/123']
   },
 })
 ```
